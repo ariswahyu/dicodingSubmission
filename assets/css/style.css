@@ -542,7 +542,7 @@ footer {
 }
 
 @media screen and (max-width: 485px) {
-    #navbar-container {
+    #navbar-container, #footer-container {
         padding: 1rem;
     }
 
