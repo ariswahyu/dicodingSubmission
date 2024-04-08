@@ -540,3 +540,62 @@ footer {
         margin-top: -7rem;
     }
 }
+
+@media screen and (max-width: 485px) {
+    .navList ul {
+        font-size: 14px;
+    }
+
+    .coverImg img {
+        max-width: 320px;
+    }
+
+    .description p, p {
+        font-size: 11px;
+    }
+
+    .description h2, h2 {
+        font-size: 14px;
+    }
+
+    .services {
+        gap: 12px;
+    }
+
+    .box-service {
+        padding: 20px 10px;
+        flex: 1 1 40%;
+    }
+
+    .box-service i {
+        font-size: 1.2rem;
+    }
+
+    .pricelist {
+        flex-wrap: wrap;
+        gap: 1rem;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex: 1 1 50%;
+    }
+
+    .logoClient {
+        gap: 20px;
+    }
+
+    #footer-container {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7.5rem solid transparent;
+        margin-top: -7.5rem;
+    }
+}
