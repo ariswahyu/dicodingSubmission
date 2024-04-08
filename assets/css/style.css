@@ -298,7 +298,7 @@ footer {
     font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     #navbar-container {
         flex-direction: column;
         row-gap: 10px;
@@ -315,7 +315,78 @@ footer {
 
     #content {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
+    }
+
+    #beranda {
+        flex-direction: column-reverse;
+    }
+
+    .coverImg img {
+        max-width: 480px;
+    }
+
+    .description h2,
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .description p,
+    p {
+        font-size: 1rem;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .box-service {
+        padding: 30px 25px;
+    }
+
+    .box-service i {
+        font-size: 1.5rem;
+    }
+
+    .box-service p {
+        font-size: 14px;
+    }
+
+    .pricelist {
+        column-gap: 1rem;
+    }
+
+    .pricelist li {
+        font-size: 14px;
+    }
+
+    .orderButton {
+        padding: 7px 14px;
+        margin-top: 1rem;
+        font-size: 11px;
+    }
+
+    .logoClient img {
+        max-width: 100px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 8rem solid transparent;
+        margin-top: -8rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #navbar-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 1rem 2.5rem;
     }
 
     #beranda {
@@ -331,19 +402,141 @@ footer {
     }
 
     .description p, p {
-        font-size: 1rem;
-    }
-
-    .pricelist {
-        column-gap: 1rem;
-    }
-
-    .pricelist li {
         font-size: 14px;
     }
 
+    .services {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .box-service {
+        padding: 25px 15px;
+    }
+
+    .box-service p {
+        font-size: 14px;
+    }
+
+    .pricelist {
+        column-gap: 14px;
+    }
+
+    .pricelist li {
+        font-size: 10px;
+    }
+
+    .card {
+        padding: 20px 15px;
+    }
+
     .orderButton {
-        padding: 7px 14px;
-        margin-top: 1rem;
+        font-size: 8px;
+    }
+
+    #client {
+        padding: 10px 25px;
+    }
+
+    #client h2 {
+        font-size: 1.3rem;
+    }
+
+    .logoClient img {
+        max-width: 100px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7.6rem solid transparent;
+        margin-top: -7.6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navbar-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 1rem 1.5rem;
+    }
+
+    #beranda {
+        flex-direction: column-reverse;
+    }
+
+    .coverImg img {
+        max-width: 440px;
+    }
+
+    .description h2, h2 {
+        font-size: 1.2rem;
+    }
+
+    .description p, p {
+        font-size: 12px;
+    }
+
+    .services {
+        width: 100%;
+        gap: 14px;
+    }
+
+    .box-service {
+        padding: 25px 15px;
+    }
+
+    .box-service p {
+        font-size: 12px;
+    }
+
+    .box-service i {
+        font-size: 1.5rem;
+    }
+
+    .pricelist {
+        column-gap: 8px;
+    }
+
+    .card {
+        padding: 20px 10px;
+    }
+
+    .pricelist li {
+        font-size: 10px;
+    }
+
+    #client {
+        padding: 10px 20px;
+    }
+
+    .orderButton {
+        font-size: 8px;
+    }
+
+    .logoClient img {
+        max-width: 80px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7rem solid transparent;
+        margin-top: -7rem;
     }
 }
