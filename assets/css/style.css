@@ -542,8 +542,12 @@ footer {
 }
 
 @media screen and (max-width: 485px) {
+    #navbar-container {
+        padding: 1rem;
+    }
+
     .navList ul {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .coverImg img {
